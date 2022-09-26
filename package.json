@@ -1,0 +1,19 @@
+{
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "turbo": "^1.5.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
