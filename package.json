@@ -10,10 +10,8 @@
     "dev": "turbo run dev",
     "start": "turbo run start"
   },
-  "devDependencies": {
-    "turbo": "^1.5.3"
-  },
   "dependencies": {
+    "turbo": "^1.5.3",
     "express": "^4.18.1"
   }
 }
